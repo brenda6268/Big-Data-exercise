@@ -28,3 +28,11 @@ The version of Spark Context in the PySpark shell is 2.3.1
 The Python version of Spark Context in the PySpark shell is 3.5
 The master of Spark Context in the PySpark shell is local[*]
 '''
+'''
+Hadoop/MapReduce: Scalable and fault tolerant framework written in Java
+Open source
+Batch processing
+Apache Spark: General purpose and lightning fast cluster computing system
+Open source
+Both batch and real-time data processing
+'''
