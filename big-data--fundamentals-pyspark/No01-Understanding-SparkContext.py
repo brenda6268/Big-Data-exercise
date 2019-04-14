@@ -35,4 +35,9 @@ Batch processing
 Apache Spark: General purpose and lightning fast cluster computing system
 Open source
 Both batch and real-time data processing
+
+PySpark APIs are similar to Pandas and Scikit-learn
+PySpark has a default SparkContext called  sc
+
+Master: URL of the cluster or “local” string to run in local mode of SparkContext
 '''
