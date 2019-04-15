@@ -21,7 +21,7 @@ cubedRDD = numbRDD.map(lambda x: x**3)
 
 
 # Collect the results
-numbers_all = cubedRDD.collect()
+numbers_all = cubedRDD.collect()   # number_all type is list
 
 # Print the numbers from numbers_all
 for numb in numbers_all:
@@ -38,4 +38,11 @@ for numb in numbers_all:
 512
 729
 1000
+'''
+
+
+print (numbers_all)
+'''
+
+[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
 '''
