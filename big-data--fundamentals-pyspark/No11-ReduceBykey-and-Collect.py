@@ -28,3 +28,7 @@ Key 4 has 5 Counts
 Key 1 has 2 Counts
 Key 3 has 10 Counts
   '''
+print(Rdd_Reduced.collect())
+'''
+[(4, 5), (1, 2), (3, 10)]   #(3,6), (3,4) add together
+'''

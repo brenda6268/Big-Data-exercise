@@ -23,3 +23,13 @@ Key 4 has 5 Counts
 Key 3 has 10 Counts
 Key 1 has 2 Counts
   '''
+
+  '''
+
+In [2]: Rdd_Reduced.collect()
+Out[2]: [(4, 5), (1, 2), (3, 10)]
+
+In [3]: Rdd_Reduced_Sort.collect()
+Out[3]: [(4, 5), (3, 10), (1, 2)]
+
+  '''
