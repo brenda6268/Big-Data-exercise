@@ -12,3 +12,10 @@ Load a local text file README.md in PySpark shell.
 #code
 # Load a local file into PySpark shell
 lines = sc.textFile(file_path)
+
+lines
+
+'''result
+
+Out[3]: /usr/local/share/datasets/README.md MapPartitionsRDD[13] at textFile at NativeMethodAccessorImpl.java:0
+'''

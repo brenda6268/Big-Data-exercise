@@ -5,9 +5,7 @@ SparkContext's textFile() method takes an optional second argument called minPar
 Remember, you already have a SparkContext sc, file_path and fileRDD available in your workspace.
 
 Instructions
-100 XP
-Instructions
-100 XP
+
 Find the number of partitions that support fileRDD RDD.
 Create an RDD named fileRDD_part from the file path but create 5 partitions.
 Confirm the number of partitions in the new fileRDD_part RDD.
